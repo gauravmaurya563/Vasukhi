@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/placeholder.svg?height=1080&width=1920"
-          alt="Person hiking with Vasukhi bottle"
+          alt="Person hiking with Vasuki bottle"
           fill
           priority
           className="object-cover"
@@ -53,8 +53,8 @@ export default function Hero() {
             className="hidden md:block relative h-[500px]"
           >
             <Image
-              src="/placeholder.svg?height=1000&width=800"
-              alt="Vasukhi water bottle"
+              src="/HeaderLogo.png"
+              alt="Vasuki water bottle"
               fill
               className="object-contain"
             />

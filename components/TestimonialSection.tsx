@@ -12,28 +12,28 @@ export default function TestimonialSection() {
       location: "Portland, OR",
       image: "/placeholder.svg?height=200&width=200",
       rating: 5,
-      text: "I take my Vasukhi bottle everywhere! It keeps my water cold all day long, even in the summer heat. The design is beautiful and I love knowing I'm reducing plastic waste.",
+      text: "I take my Vasuki bottle everywhere! It keeps my water cold all day long, even in the summer heat. The design is beautiful and I love knowing I'm reducing plastic waste.",
     },
     {
       name: "Michael T.",
       location: "Denver, CO",
       image: "/placeholder.svg?height=200&width=200",
       rating: 5,
-      text: "As an avid hiker, I need gear that can keep up. My Vasukhi bottle has been through some tough trails and still looks and performs perfectly. Worth every penny!",
+      text: "As an avid hiker, I need gear that can keep up. My Vasuki bottle has been through some tough trails and still looks and performs perfectly. Worth every penny!",
     },
     {
       name: "Emma L.",
       location: "Austin, TX",
       image: "/placeholder.svg?height=200&width=200",
       rating: 5,
-      text: "The Vasukhi bottle is perfect for my yoga classes. It's lightweight, doesn't leak, and I love the minimalist design. Vasukhi has a customer for life!",
+      text: "The Vasuki bottle is perfect for my yoga classes. It's lightweight, doesn't leak, and I love the minimalist design. Vasuki has a customer for life!",
     },
     {
       name: "David R.",
       location: "Seattle, WA",
       image: "/placeholder.svg?height=200&width=200",
       rating: 5,
-      text: "I've tried many water bottles over the years, but Vasukhi is by far the best. The quality is exceptional and I appreciate their commitment to sustainability.",
+      text: "I've tried many water bottles over the years, but Vasuki is by far the best. The quality is exceptional and I appreciate their commitment to sustainability.",
     },
   ]
 

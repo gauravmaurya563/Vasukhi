@@ -6,7 +6,7 @@ import { MotionDiv } from "@/components/MotionComponents"
 // Update the contact page title and description
 export const metadata: Metadata = {
   title: "Contact Us",
-  description: "Get in touch with the Vasukhi team for questions, support, or partnership inquiries.",
+  description: "Get in touch with the Vasuki team for questions, support, or partnership inquiries.",
 }
 
 export default function ContactPage() {
@@ -45,11 +45,13 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold mb-1">Our Location</h3>
                   <address className="not-italic text-gray-600">
-                    123 Eco Street
-                    <br />
-                    Portland, OR 97204
-                    <br />
-                    United States
+
+ATAJI MAFAJI THAKOR                    <br />
+SUP NO-362/2.                     <br />
+OPP.SWAGT PARK BUNGLOWS,<br />
+B/H SURAJ BUNGLOW,
+<br />
+                    THALTEJ AHMEDABAD,
                   </address>
                 </div>
               </div>
@@ -58,7 +60,7 @@ export default function ContactPage() {
                 <Phone className="w-5 h-5 text-primary-dark mt-1 mr-3" />
                 <div>
                   <h3 className="font-semibold mb-1">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+918141805858</p>
                 </div>
               </div>
 
@@ -67,7 +69,7 @@ export default function ContactPage() {
                 <Mail className="w-5 h-5 text-primary-dark mt-1 mr-3" />
                 <div>
                   <h3 className="font-semibold mb-1">Email</h3>
-                  <p className="text-gray-600">hello@vasukhi.com</p>
+                  <p className="text-gray-600">Aayalbeverages@gmail.com</p>
                 </div>
               </div>
 
@@ -75,7 +77,7 @@ export default function ContactPage() {
                 <h3 className="font-semibold mb-3">Follow Us</h3>
                 <div className="flex space-x-4">
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/vasuki_water?utm_source=qr&igsh=MWdmMnJwc2k4b2F1ag=="
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-primary-dark transition-colors"
@@ -130,13 +132,13 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                question: "How do I clean my Vasukhi bottle?",
+                question: "How do I clean my Vasuki bottle?",
                 answer:
                   "We recommend hand washing with warm, soapy water. Our bottle is also dishwasher safe (top rack only).",
               },
               {
                 question: "What is your warranty policy?",
-                answer: "All Vasukhi bottles come with a lifetime warranty against manufacturing defects.",
+                answer: "All Vasuki bottles come with a lifetime warranty against manufacturing defects.",
               },
               {
                 question: "Do you ship internationally?",
@@ -144,7 +146,7 @@ export default function ContactPage() {
               },
               {
                 question: "Is your bottle leak-proof?",
-                answer: "Yes, the Vasukhi bottle features a leak-proof lid when properly closed.",
+                answer: "Yes, the Vasuki bottle features a leak-proof lid when properly closed.",
               },
             ].map((faq, index) => (
               <MotionDiv

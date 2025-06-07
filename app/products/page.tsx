@@ -4,14 +4,13 @@ import { MotionDiv } from "@/components/MotionComponents"
 
 export const metadata: Metadata = {
   title: "Our Product",
-  description: "Explore Vasukhi's premium eco-friendly water bottle for every lifestyle.",
+  description: "Explore Vasuki's premium eco-friendly water bottle for every lifestyle.",
 }
 
 const product = {
   id: 1,
-  name: "Vasukhi Classic",
-  price: 34.99,
-  image: "/placeholder.svg?height=500&width=500",
+  name: "Vasuki Classic",
+  image: "/New Look.png",
   features: ["Vacuum insulated", "24-hour cold / 12-hour hot", "500ml capacity", "Stainless steel"],
   colors: ["Silver", "Black", "Ocean Blue"],
   description:

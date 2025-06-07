@@ -20,7 +20,7 @@ export default function AboutPageClient() {
           >
             <Image
               src="/placeholder.svg?height=800&width=600"
-              alt="People enjoying Vasukhi bottles outdoors"
+              alt="People enjoying Vasuki bottles outdoors"
               fill
               className="object-cover"
             />
@@ -33,7 +33,7 @@ export default function AboutPageClient() {
           >
             <h2 className="text-2xl md:text-3xl font-bold mb-4">Founded with Purpose</h2>
             <p className="text-gray-700 mb-4">
-              Vasukhi was born in 2015 from a simple observation: the world didn't need more plastic waste. Our founder,
+              Vasuki was born in 2015 from a simple observation: the world didn't need more plastic waste. Our founder,
               an avid outdoor enthusiast, was tired of seeing single-use plastic bottles littering beautiful natural
               spaces.
             </p>

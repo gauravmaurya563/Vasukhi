@@ -65,8 +65,8 @@ export default function ProductHighlights() {
           >
             <div className="relative h-64 overflow-hidden">
               <Image
-                src="/placeholder.svg?height=500&width=500"
-                alt="Vasukhi Water Bottle"
+                src="/Adventure-Ready Bottles in Nature.png"
+                alt="Vasuki Water Bottle"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -75,8 +75,8 @@ export default function ProductHighlights() {
               </div>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold mb-2">Vasukhi Classic</h3>
-              <p className="text-primary-dark font-semibold mb-4">$34.99</p>
+              <h3 className="text-xl font-bold mb-2">Vasuki Classic</h3>
+              <p className="text-primary-dark font-semibold mb-4"></p>
               <Link
                 href="/products"
                 className="inline-block w-full text-center bg-gray-100 hover:bg-gradient-to-r hover:from-primary-dark hover:to-primary-light hover:text-white transition-colors py-2 rounded-md font-medium"

@@ -24,7 +24,7 @@ export default function CtaSection() {
             viewport={{ once: true }}
             className="text-lg mb-8"
           >
-            Every Vasukhi bottle purchased helps reduce single-use plastic waste and supports our clean water
+            Every Vasuki bottle purchased helps reduce single-use plastic waste and supports our clean water
             initiatives around the world.
           </motion.p>
           <motion.div

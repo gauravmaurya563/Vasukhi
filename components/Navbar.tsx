@@ -48,7 +48,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className="text-2xl font-bold blue-gradient-text">Vasukhi</span>
+            <span className="text-2xl font-bold blue-gradient-text">Vasuki</span>
           </Link>
 
           {/* Desktop Navigation */}

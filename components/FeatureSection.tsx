@@ -18,7 +18,7 @@ export default function FeatureSection() {
             <div className="w-20 h-1 blue-gradient mb-6"></div>
             <p className="text-gray-600 mb-6">
               Our bottle is engineered to withstand the rigors of your active lifestyle. From mountain trails to office
-              meetings, the Vasukhi bottle keeps your drinks at the perfect temperature while looking great.
+              meetings, the Vasuki bottle keeps your drinks at the perfect temperature while looking great.
             </p>
             <ul className="space-y-4">
               {[
@@ -57,8 +57,8 @@ export default function FeatureSection() {
             className="relative h-[500px]"
           >
             <Image
-              src="/placeholder.svg?height=1000&width=800"
-              alt="Vasukhi bottle features"
+              src="/Nature.png"
+              alt="Vasuki bottle features"
               fill
               className="object-cover rounded-lg"
             />
@@ -74,8 +74,8 @@ export default function FeatureSection() {
             className="relative h-[500px] order-2 md:order-1"
           >
             <Image
-              src="/placeholder.svg?height=1000&width=800"
-              alt="Vasukhi sustainability"
+              src="/Descriptions.png"
+              alt="Vasuki sustainability"
               fill
               className="object-cover rounded-lg"
             />
@@ -91,7 +91,7 @@ export default function FeatureSection() {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Sustainability at Our Core</h2>
             <div className="w-20 h-1 blue-gradient mb-6"></div>
             <p className="text-gray-600 mb-6">
-              Every Vasukhi bottle is designed with sustainability in mind. By choosing our product, you're helping to
+              Every Vasuki bottle is designed with sustainability in mind. By choosing our product, you're helping to
               reduce single-use plastic waste and supporting our environmental initiatives.
             </p>
             <div className="space-y-6">
