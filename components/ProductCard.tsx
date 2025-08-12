@@ -9,7 +9,6 @@ interface ProductProps {
   product: {
     id: number
     name: string
-    price: number
     image: string
     features: string[]
     colors: string[]
@@ -38,7 +37,6 @@ export default function ProductCard({ product }: ProductProps) {
       </div>
       <div className="p-6 flex-1 flex flex-col">
         <h3 className="text-xl font-bold mb-2">{product.name}</h3>
-        <p className="text-primary-dark font-semibold mb-3">${product.price}</p>
         <p className="text-gray-600 mb-4 flex-1">{product.description}</p>
 
         <div className="mb-4">

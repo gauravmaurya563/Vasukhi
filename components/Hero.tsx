@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="/VASUKiLog.png"
           alt="Person hiking with Vasukhi bottle"
           fill
           priority
@@ -33,13 +33,14 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/products"
-                className="blue-gradient text-white px-6 py-3 rounded-md font-medium hover:opacity-90 transition-opacity"
+                className="border border-gray-300 px-6 py-3 rounded-md font-medium hover:bg-gray-50 transition-colors"
+
               >
                 Shop Now
               </Link>
               <Link
                 href="/about"
-                className="border border-gray-300 px-6 py-3 rounded-md font-medium hover:bg-gray-50 transition-colors"
+                className="blue-gradient text-white px-6 py-3 rounded-md font-medium hover:opacity-90 transition-opacity"
               >
                 Our Story
               </Link>
@@ -52,12 +53,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="hidden md:block relative h-[500px]"
           >
-            <Image
-              src="/placeholder.svg?height=1000&width=800"
-              alt="Vasukhi water bottle"
-              fill
-              className="object-contain"
-            />
+            
           </motion.div>
         </div>
       </div>

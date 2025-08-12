@@ -7,7 +7,7 @@ export default function AboutPageClient() {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">Our Story</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">Our Journey</h1>
         <div className="w-20 h-1 blue-gradient mx-auto mb-12"></div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
@@ -19,27 +19,27 @@ export default function AboutPageClient() {
             className="relative h-[400px] rounded-lg overflow-hidden"
           >
             <Image
-              src="/placeholder.svg?height=800&width=600"
-              alt="People enjoying Vasukhi bottles outdoors"
+              src="/image.png?height=800&width=600"
+              alt="Founders of Vasukhi holding bottles near a water stream"
               fill
               className="object-cover"
             />
           </MotionDiv>
+
           <MotionDiv
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">Founded with Purpose</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">Born from a 2024 Dream</h2>
             <p className="text-gray-700 mb-4">
-              Vasukhi was born in 2015 from a simple observation: the world didn't need more plastic waste. Our founder,
-              an avid outdoor enthusiast, was tired of seeing single-use plastic bottles littering beautiful natural
-              spaces.
+              In the vibrant heart of Gujarat, two brothers — <strong>Umang Brahmbhatt</strong> and <strong>Pratik Brahmbhatt</strong> — saw more than just bottled water.
+              They saw an opportunity to redefine what hydration means in India.
             </p>
             <p className="text-gray-700">
-              What started as a small project has grown into a mission-driven company dedicated to providing sustainable
-              hydration solutions without compromising on design or functionality.
+              Launched in 2024, <strong>Vasukhi</strong> was created not as a brand, but a movement — a blend of tradition and innovation.
+              Inspired by the purity of nature and driven by purpose, Vasukhi is here to offer hydration that’s clean, conscious, and iconic.
             </p>
           </MotionDiv>
         </div>
@@ -54,32 +54,32 @@ export default function AboutPageClient() {
           <h2 className="text-3xl font-bold mb-6 text-center">Our Mission</h2>
           <div className="w-16 h-1 blue-gradient mx-auto mb-8"></div>
           <p className="text-gray-700 text-center max-w-2xl mx-auto text-lg">
-            To create a beautiful, functional hydration product that inspires people to reduce single-use plastic
-            consumption while supporting global clean water initiatives.
+            To deliver India’s most trusted hydration experience — clean, fresh, and future-ready. We’re building a
+            legacy that quenches thirst while preserving the planet.
           </p>
         </MotionDiv>
 
-        <h2 className="text-3xl font-bold mb-6 text-center">Our Values</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center">What We Stand For</h2>
         <div className="w-16 h-1 blue-gradient mx-auto mb-12"></div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-20">
           {[
             {
-              title: "Sustainability",
+              title: "Purity First",
               description:
-                "Every product we create is designed with its environmental impact in mind, from materials to manufacturing to end-of-life.",
-              icon: "🌱",
+                "Every drop meets the highest standards of purity, tested and certified — because trust is everything.",
+              icon: "💧",
             },
             {
-              title: "Innovation",
+              title: "Next-Gen Packaging",
               description:
-                "We're constantly exploring new materials, technologies, and designs to create better products with less environmental impact.",
-              icon: "💡",
+                "We use innovative, eco-conscious bottles designed for both style and sustainability.",
+              icon: "♻️",
             },
             {
-              title: "Transparency",
+              title: "Bold Transparency",
               description:
-                "We believe in honest communication about our products, processes, and progress toward our sustainability goals.",
+                "From source to shelf, we’re clear about what’s inside — and what impact it leaves behind.",
               icon: "🔍",
             },
           ].map((value, index) => (
@@ -99,19 +99,19 @@ export default function AboutPageClient() {
         </div>
 
         <div className="bg-gray-50 p-8 rounded-lg">
-          <h2 className="text-2xl font-bold mb-4 text-center">Our Impact</h2>
+          <h2 className="text-2xl font-bold mb-4 text-center">Our Impact So Far</h2>
           <div className="grid md:grid-cols-3 gap-6 text-center">
             <div className="p-4">
-              <p className="text-4xl font-bold text-primary-dark mb-2">1.2M+</p>
-              <p className="text-gray-600">Plastic bottles saved annually</p>
+              <p className="text-4xl font-bold text-primary-dark mb-2">2.5M+</p>
+              <p className="text-gray-600">Bottles delivered with zero compromise on quality</p>
             </div>
             <div className="p-4">
-              <p className="text-4xl font-bold text-primary-dark mb-2">$250K</p>
-              <p className="text-gray-600">Donated to clean water projects</p>
+              <p className="text-4xl font-bold text-primary-dark mb-2">₹1Cr+</p>
+              <p className="text-gray-600">Invested in eco-safe packaging and logistics</p>
             </div>
             <div className="p-4">
               <p className="text-4xl font-bold text-primary-dark mb-2">100%</p>
-              <p className="text-gray-600">Carbon-neutral operations</p>
+              <p className="text-gray-600">Made in India — proudly and sustainably</p>
             </div>
           </div>
         </div>
