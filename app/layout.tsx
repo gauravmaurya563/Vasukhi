@@ -10,24 +10,24 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Vasukhi",
-    default: "Vasukhi - Premium Eco-Friendly Water Bottle",
+    template: "%s | Vasuki",
+    default: "Vasuki - Premium Eco-Friendly Water Bottle",
   },
   description: "Premium eco-friendly water bottle designed for your active lifestyle.",
   keywords: ["water bottle", "eco-friendly", "sustainable", "hydration", "reusable"],
-  authors: [{ name: "Vasukhi" }],
-  creator: "Vasukhi",
+  authors: [{ name: "Vasuki" }],
+  creator: "Vasuki",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://vasukhi.com",
-    title: "Vasukhi - Premium Eco-Friendly Water Bottle",
+    url: "https://Vasuki.com",
+    title: "Vasuki - Premium Eco-Friendly Water Bottle",
     description: "Premium eco-friendly water bottle designed for your active lifestyle.",
-    siteName: "Vasukhi",
+    siteName: "Vasuki",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vasukhi - Premium Eco-Friendly Water Bottle",
+    title: "Vasuki - Premium Eco-Friendly Water Bottle",
     description: "Premium eco-friendly water bottle designed for your active lifestyle.",
   },
   icons: {

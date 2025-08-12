@@ -18,7 +18,7 @@ export default function FeatureSection() {
             <div className="w-20 h-1 blue-gradient mb-6"></div>
             <p className="text-gray-600 mb-6">
               Our bottle is engineered to withstand the rigors of your active lifestyle. From mountain trails to office
-              meetings, the Vasukhi bottle keeps your drinks at the perfect temperature while looking great.
+              meetings, the Vasuki bottle keeps your drinks at the perfect temperature while looking great.
             </p>
             <ul className="space-y-4">
               {[

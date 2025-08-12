@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-bold mb-4 blue-gradient-text">Vasukhi</h3>
+            <h3 className="text-lg font-bold mb-4 blue-gradient-text">Vasuki</h3>
             <p className="text-gray-600 mb-4">Premium eco-friendly water bottle designed for your active lifestyle.</p>
             <div className="flex space-x-4">
               <a
@@ -121,7 +121,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Vasukhi. All rights reserved.
+            &copy; {new Date().getFullYear()} Vasuki. All rights reserved.
           </p>
           <div className="flex flex-wrap gap-4 text-sm">
             <Link href="/privacy" className="text-gray-500 hover:text-primary-dark transition-colors">
